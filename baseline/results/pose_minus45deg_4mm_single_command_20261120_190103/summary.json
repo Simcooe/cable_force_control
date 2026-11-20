@@ -1,0 +1,67 @@
+{
+  "status": "stopped_torque_limit",
+  "input_mode": "single_command_to_three_position_drives",
+  "physics_step_s": 5e-05,
+  "requested_hold_s": 0.02,
+  "plan": {
+    "target_bend_deg": -45.0,
+    "target_extension_mm": 4.0,
+    "duration_s": 9.5939,
+    "geometric_path_change_mm": {
+      "blue": -4.0217544554024585,
+      "green": 9.785624467975197,
+      "orange": 4.941121291273475,
+      "purple": -5.116728619203116
+    },
+    "motor_goal_deg": {
+      "blue": 48.40957070010415,
+      "green": -117.78886174683412,
+      "axial": 29.287408071342643
+    },
+    "orange_geometric_vs_spool_difference_mm": 0.17560732792964018
+  },
+  "completed_steps": 52395,
+  "last_state": {
+    "time_s": 2.619750000000564,
+    "bend_deg": -6.343909182258096,
+    "extension_mm": 0.5346498736486504,
+    "tensions_N": {
+      "blue": 3.7817757114958437,
+      "green": 0.5227318376609451,
+      "orange": 0.0,
+      "purple": 0.0
+    },
+    "extension_over_slack_mm": {
+      "blue": 0.19708276281613735,
+      "green": 0.025756302459228664,
+      "orange": -0.1943878897690297,
+      "purple": -0.005129862196213253
+    }
+  },
+  "first_refused_step_torque_Nm": {
+    "blue": 0.0180012529,
+    "green": 0.00248820234,
+    "axial": 9.47697869e-07
+  },
+  "limit_Nm": {
+    "blue": 0.018,
+    "green": 0.0065,
+    "axial": 0.075
+  },
+  "source_tension_to_blue_spool_torque_Nm": 0.018001252386720217,
+  "sampled_max_abs_encoder_error_deg": {
+    "blue": 8.277378782395317e-12,
+    "green": 2.014033384512004e-11,
+    "axial": 5.007771974874231e-12
+  },
+  "last_trace_sample_time_s": 2.6190000000005655,
+  "trace_period_s": 0.001,
+  "input_sha256": {
+    "model/assembly.xml": "5d873a7f3e0b82b185452cdc55d162662ceaafa296e7ff63286ca2a3760894be",
+    "model/routing.xml": "6c5f49a9ce3962323d1371c7dc820ae073d96e295c53958e7529d95a6c7d8e84",
+    "model/carriage_hulls.xml": "3ac8926712f750303a35994561f14d5c1e131c81119370400da5196c03a96915",
+    ".build/libcable_unilateral.dylib": "7a5a827c207608b9ca9ae6dbab9762389b66402ef1b523fc768571c95aa29043",
+    "src/kinematics.py": "33eae6dafad7b0d8c65863190109db66725dd40edcae50c4d3a204aa897ad70f",
+    "src/drive.py": "161b642d0da781d33fb0d000d422dfa872b1317a102ce3dd62e06d0dfe1ff6a2"
+  }
+}

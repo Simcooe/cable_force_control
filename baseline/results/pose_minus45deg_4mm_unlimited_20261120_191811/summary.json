@@ -1,0 +1,186 @@
+{
+  "status": "completed",
+  "target_command": "pose --angle -45 --length 4",
+  "motor_torque_limited": false,
+  "completed_steps": 192278,
+  "step_s": 5e-05,
+  "hold_s": 0.02,
+  "wall_s": 649.0053531669546,
+  "plan": {
+    "target_bend_deg": -45.0,
+    "target_extension_mm": 4.0,
+    "duration_s": 9.5939,
+    "geometric_path_change_mm": {
+      "blue": -4.0217544554024585,
+      "green": 9.785624467975197,
+      "orange": 4.941121291273475,
+      "purple": -5.116728619203116
+    },
+    "motor_goal_deg": {
+      "blue": 48.40957070010415,
+      "green": -117.78886174683412,
+      "axial": 29.287408071342643
+    },
+    "orange_geometric_vs_spool_difference_mm": 0.17560732792964018
+  },
+  "motion": {
+    "carriage_contact": {
+      "active_steps": 171856,
+      "max_simultaneous_contacts": 502,
+      "peak_normal_sum_N": 1676.9110487866878,
+      "signed_peak_axial_friction_N": 59.502641388622074,
+      "peak_friction_time_s": 5.1785999999946,
+      "max_penetration_mm": 0.13260277196092224
+    },
+    "time_s": 9.613899999984264,
+    "target_deg": [
+      48.40957070010415,
+      -117.78886174683412,
+      29.287408071342643
+    ],
+    "encoder_deg": [
+      48.40957070010415,
+      -117.78886174683412,
+      29.287408071342643
+    ],
+    "max_encoder_error_deg": 9.706282597239736e-20,
+    "contraction_mm": {
+      "blue": 4.021754455402457,
+      "green": -9.785624467975193,
+      "orange": -5.116728619203115,
+      "purple": 5.116728619203114
+    },
+    "max_axial_sum_error_mm": 8.881784197001252e-16,
+    "peak_torque_Nm": {
+      "blue": 0.041998807055218065,
+      "green": 0.01617223144373929,
+      "axial": 0.01048579663645648
+    },
+    "peak_tension_N": {
+      "blue": 8.823278796224368,
+      "green": 3.3975275243953345,
+      "orange": 1.0476792482086343,
+      "purple": 0.6562815005688941
+    },
+    "peak_bend_change_deg": 45.00001442332236,
+    "peak_slide_change_mm": 4.081511502333934,
+    "final_bend_deg": -45.00000655129001,
+    "final_slide_mm": -3.9997454800988184,
+    "route_status": {
+      "blue": 0,
+      "green": 0,
+      "orange": 0,
+      "purple": 0
+    }
+  },
+  "actual_bend_deg": -45.00000655129001,
+  "actual_extension_mm": 3.9997454800988184,
+  "bend_error_deg": -6.551290006484578e-06,
+  "extension_error_mm": -0.0002545199011816379,
+  "source_tension_peak_samples": {
+    "blue": {
+      "time_s": 4.848549999995369,
+      "bend_deg": -23.451720286908955,
+      "extension_mm": 2.1134967959714195,
+      "tensions_N": {
+        "blue": 8.823278796224368,
+        "green": 1.6689106599877102,
+        "orange": 0.0,
+        "purple": 0.0
+      },
+      "extension_over_slack_mm": {
+        "blue": 0.4598147259159191,
+        "green": 0.08223139407084545,
+        "orange": -0.2071063192515908,
+        "purple": -0.0021209625289770884
+      }
+    },
+    "green": {
+      "time_s": 5.419699999994038,
+      "bend_deg": -28.66962885190391,
+      "extension_mm": 2.563964449166492,
+      "tensions_N": {
+        "blue": 7.628980115998519,
+        "green": 3.3975275243953345,
+        "orange": 0.0,
+        "purple": 0.0
+      },
+      "extension_over_slack_mm": {
+        "blue": 0.39757526448750014,
+        "green": 0.16740466186917047,
+        "orange": -0.21208011328310478,
+        "purple": -0.02053875880949363
+      }
+    },
+    "orange": {
+      "time_s": 5.236899999994464,
+      "bend_deg": -26.973054487211858,
+      "extension_mm": 2.6862299866690904,
+      "tensions_N": {
+        "blue": 8.209347802867788,
+        "green": 2.654592396420324,
+        "orange": 1.0476792482086343,
+        "purple": 0.0
+      },
+      "extension_over_slack_mm": {
+        "blue": 0.42782043921579316,
+        "green": 0.13079839363547308,
+        "orange": 0.05500575743546959,
+        "purple": -0.27860940747149243
+      }
+    },
+    "purple": {
+      "time_s": 5.496999999993858,
+      "bend_deg": -29.145044025254197,
+      "extension_mm": 2.5661869198421985,
+      "tensions_N": {
+        "blue": 7.81507491686774,
+        "green": 2.6535990401646936,
+        "orange": 0.0,
+        "purple": 0.6562815005688941
+      },
+      "extension_over_slack_mm": {
+        "blue": 0.40727337466086055,
+        "green": 0.1307494484931908,
+        "orange": -0.27316879356562823,
+        "purple": 0.0375646053483365
+      }
+    }
+  },
+  "signed_motor_peak_Nm": {
+    "blue": 0.041998807055218065,
+    "green": 0.01617223144373929,
+    "axial": -0.01048579663645648
+  },
+  "motor_peak_time_s": {
+    "blue": 4.848549999995369,
+    "green": 5.419699999994038,
+    "axial": 5.236899999994464
+  },
+  "final": {
+    "time_s": 9.613899999984264,
+    "bend_deg": -45.00000655129001,
+    "extension_mm": 3.9997454800988184,
+    "tensions_N": {
+      "blue": 8.326367343074036e-05,
+      "green": 0.00012481112155853188,
+      "orange": 0.0,
+      "purple": 0.00047136701014757515
+    },
+    "extension_over_slack_mm": {
+      "blue": 4.339187739788031e-06,
+      "green": 6.149755506612564e-06,
+      "orange": -0.3757740712941427,
+      "purple": 2.6980366953921475e-05
+    }
+  },
+  "trace_period_s": 0.001,
+  "input_sha256": {
+    "model/assembly.xml": "3451167a68d8fbbe68e7d5d4f672a939d0ab743d5ef3239172bbc743c313ffd5",
+    ".build/libcable_unilateral.dylib": "7a5a827c207608b9ca9ae6dbab9762389b66402ef1b523fc768571c95aa29043",
+    "model/routing.xml": "4828178dc6682e2f3249f19348535737af49c86e68aa8d2933203404a973d38a",
+    "model/carriage_hulls.xml": "3ac8926712f750303a35994561f14d5c1e131c81119370400da5196c03a96915",
+    "src/drive.py": "3db46a7b8aca764efff2fa54fd6653cecb56dff62e981cbfb5f87754287cc246",
+    "src/kinematics.py": "33eae6dafad7b0d8c65863190109db66725dd40edcae50c4d3a204aa897ad70f"
+  }
+}

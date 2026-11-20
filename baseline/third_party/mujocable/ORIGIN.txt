@@ -1,0 +1,10 @@
+MuJoCable, Apache-2.0
+https://github.com/MuJoCable/mujoco-cable-dynamics/tree/d5ff04ea1bb34d59468b97c8cff6686dc1332581/plugin
+This source snapshot carries the original project's local MuJoCo 3.17 compatibility,
+routing and velocity-reference changes, as used to build the previous baseline.
+Local source revision: velocity_reference_fix_20261112/native_optional/upstream.
+This import adds opt-in cylinder_contact=pitch_circle in surface_route.cc/.h
+and unilateral_cable.cc. It constrains contacts to each local XY pitch plane,
+checks projected tangency for spans with a fleet angle, and includes axial
+translation of that plane in the routing velocity. Default cylinder behavior
+is retained. See LICENSE for redistribution terms.

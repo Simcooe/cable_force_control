@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routing source_sha256="24b904015de64be6e89117c5e7239c507365545e4f4db31fbc90abc6ba8a21d4">
+  <asset>
+    <mesh name="four_native_v_offset" file="guide_v.msh" />
+  </asset>
+  <mount body="world">
+    <site name="four_feed_blue" pos="39.328463696823164 -230.99759752692893 851.2923320725761" user="1" group="5" size=".05" />
+    <site name="four_feed_green" pos="-39.318853785591905 -230.9975975269289 851.29233207257653" user="1" group="5" size=".05" />
+    <site name="four_feed_orange" pos="9.6292486058263691 -230.30908442151795 885.0099991330768" user="1" group="5" size=".05" />
+    <site name="four_feed_purple" pos="-9.910307304812461 -230.30908442151795 886.39678254488081" user="1" group="5" size=".05" />
+  </mount>
+  <mount body="body_16729">
+    <geom type="mesh" mesh="four_native_v_offset" quat="-1.3904004803680079e-16 -0.033629765741661849 -3.520866757024995e-18 0.99943435945346648" name="four_wrap_R5" pos="6.4483576720356774 -7.8856441963940749e-12 287.91937631249169" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <geom type="mesh" mesh="four_native_v_offset" quat="-6.6167963260000918e-17 0.70710678118654724 -2.0168737976706077e-17 0.70710678118654791" name="four_wrap_R2" pos="7.5000000000137073 -7.9031394873877618e-12 311.41937631248965" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <geom type="mesh" mesh="four_native_v_offset" quat="-6.6167963260000918e-17 0.70710678118654724 -2.0168737976706077e-17 0.70710678118654791" name="four_wrap_R3" pos="-7.499999999986275 -7.9138399686164413e-12 311.41937631248965" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <geom type="cylinder" size="0.94999999999999973 2.2000000000000002" quat="-0.49999999999999978 -0.49999999999999989 0.50000000000000033 -0.5" name="four_wrap_L1" pos="-1.5000000000032416 -7.8478711726574492e-12 650.78065328170931" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <geom type="cylinder" size="0.94999999999999996 2.2000000000000002" quat="8.4287003324366063e-17 -6.9260727840868925e-17 -0.70710678118654735 0.70710678118654768" name="four_wrap_L2" pos="-1.5000000000032452 -7.8461390512666863e-12 654.78065328170919" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <geom type="cylinder" size="0.94999999999999973 2.2000000000000002" quat="8.4287003324366063e-17 -6.9260727840868925e-17 -0.70710678118654735 0.70710678118654768" name="four_wrap_L3" pos="-1.5000000000032456 -7.8400766263990164e-12 668.78065328170931" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <geom type="cylinder" size="1.2 3" quat="7.0884854667600719e-17 8.5757800809429333e-17 0.70710678118654779 0.70710678118654713" name="four_wrap_L4" pos="-3.2432636189269055e-12 -7.866345711837326e-12 671.28065328170931" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <site name="four_hint_blue_R2" pos="2.976550507120767 -0.5000000000077939 308.373661288817" user="2" group="5" size=".02" />
+    <site name="four_hint_blue_L3" pos="-2.4443386496888326 -0.5000000000077555 668.6770940488519" user="4" group="5" size=".02" />
+    <site name="four_hint_blue_L4" pos="-1.1646822635340122 -0.50000000000775346 670.99166327320233" user="4" group="5" size=".02" />
+    <site name="four_hint_green_R3" pos="-2.9717565006981284 0.49999999999220168 308.38079339748907" user="2" group="5" size=".02" />
+    <site name="four_hint_green_L1" pos="-0.57843337173304921 0.49999999999226646 651.01133693882161" user="2" group="5" size=".02" />
+    <site name="four_hint_green_L2" pos="-2.4341099882900905 0.49999999999226685 654.95368082224184" user="2" group="5" size=".02" />
+    <site name="four_hint_orange_R5" pos="1.4814232807927445 -7.7758028975430685e-12 287.22127360972326" user="2" group="5" size=".02" />
+    <site name="four_hint_purple_R3" pos="-1.187868271473442 -1.5000000000079092 310.96794831004974" user="2" group="5" size=".02" />
+    <site name="four_hint_purple_L3" pos="-0.559891196675353 -1.5000000000077536 668.9173845433335" user="2" group="5" size=".02" />
+    <site name="four_hint_purple_L4" pos="-1.1882710332371857 -1.5000000000077531 671.1132855680452" user="4" group="5" size=".02" />
+    <site name="iso_purple_R3_entry" pos="-1.5890943957219474 -1.500000000007911 307.61972964357545" user="3" size=".05" group="5" />
+    <geom name="iso_purple_R3_entry_rim_0" type="capsule" fromto="-1.3128374546846826 -1.5000000000079108 307.57409958189754 -1.3346173183939933 -1.3929477979469123 307.57302586269515" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_1" type="capsule" fromto="-1.3346173183939933 -1.3929477979469123 307.57302586269515 -1.3951390102860346 -1.3021933232190672 307.57906237076105" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_2" type="capsule" fromto="-1.3951390102860346 -1.3021933232190672 307.57906237076105 -1.4851886514007464 -1.2415531219103384 307.5912901024631" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_3" type="capsule" fromto="-1.4851886514007464 -1.2415531219103384 307.5912901024631 -1.591057000180443 -1.2202591149651978 307.60784749649446" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_4" type="capsule" fromto="-1.591057000180443 -1.2202591149651978 307.60784749649446 -1.6966265602223878 -1.2415531219103384 307.6262138397071" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_5" type="capsule" fromto="-1.6966265602223878 -1.2415531219103384 307.6262138397071 -1.785825323000639 -1.3021933232190674 307.64359302283793" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_6" type="capsule" fromto="-1.785825323000639 -1.3021933232190674 307.64359302283793 -1.8450735854710063 -1.3929477979469127 307.65733922279816" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_7" type="capsule" fromto="-1.8450735854710063 -1.3929477979469127 307.65733922279816 -1.8653513367592125 -1.500000000007911 307.66535970525337" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_8" type="capsule" fromto="-1.8653513367592125 -1.500000000007911 307.66535970525337 -1.843571473049902 -1.6070522020689095 307.66643342445576" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_9" type="capsule" fromto="-1.843571473049902 -1.6070522020689095 307.66643342445576 -1.7830497811578607 -1.6978066767967546 307.66039691638986" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_10" type="capsule" fromto="-1.7830497811578607 -1.6978066767967546 307.66039691638986 -1.693000140043149 -1.7584468781054836 307.6481691846878" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_11" type="capsule" fromto="-1.693000140043149 -1.7584468781054836 307.6481691846878 -1.587131791263452 -1.779740885050624 307.63161179065645" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_12" type="capsule" fromto="-1.587131791263452 -1.779740885050624 307.63161179065645 -1.4815622312215073 -1.7584468781054834 307.61324544744383" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_13" type="capsule" fromto="-1.4815622312215073 -1.7584468781054834 307.61324544744383 -1.3923634684432564 -1.6978066767967543 307.595866264313" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_14" type="capsule" fromto="-1.3923634684432564 -1.6978066767967543 307.595866264313 -1.333115205972889 -1.6070522020689093 307.58212006435275" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_R3_entry_rim_15" type="capsule" fromto="-1.333115205972889 -1.6070522020689093 307.58212006435275 -1.3128374546846826 -1.5000000000079108 307.57409958189754" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <site name="iso_purple_posts_entry" pos="0.29519504438506927 0.549999999992306 648.6085104952" user="3" size=".05" group="5" />
+    <geom name="iso_purple_posts_entry_rim_0" type="capsule" fromto="0.5751950443850693 0.549999999992306 648.6085104952 0.5538813134882296 0.6571513610545279 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_1" type="capsule" fromto="0.5538813134882296 0.6571513610545279 648.6085104952 0.49318494311730243 0.7479898987245375 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_2" type="capsule" fromto="0.49318494311730243 0.7479898987245375 648.6085104952 0.4023464054472943 0.8086862690954573 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_3" type="capsule" fromto="0.4023464054472943 0.8086862690954573 648.6085104952 0.2951950443850691 0.8299999999923069 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_4" type="capsule" fromto="0.2951950443850691 0.8299999999923069 648.6085104952 0.18804368332284405 0.808686269095457 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_5" type="capsule" fromto="0.18804368332284405 0.808686269095457 648.6085104952 0.09720514565283589 0.7479898987245372 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_6" type="capsule" fromto="0.09720514565283589 0.7479898987245372 648.6085104952 0.03650877528190899 0.6571513610545276 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_7" type="capsule" fromto="0.03650877528190899 0.6571513610545276 648.6085104952 0.015195044385069356 0.5499999999923058 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_8" type="capsule" fromto="0.015195044385069356 0.5499999999923058 648.6085104952 0.0365087752819091 0.44284863893008386 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_9" type="capsule" fromto="0.0365087752819091 0.44284863893008386 648.6085104952 0.09720514565283622 0.35201010126007426 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_10" type="capsule" fromto="0.09720514565283622 0.35201010126007426 648.6085104952 0.18804368332284427 0.29131373088915447 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_11" type="capsule" fromto="0.18804368332284427 0.29131373088915447 648.6085104952 0.29519504438506944 0.26999999999230484 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_12" type="capsule" fromto="0.29519504438506944 0.26999999999230484 648.6085104952 0.4023464054472947 0.2913137308891547 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_13" type="capsule" fromto="0.4023464054472947 0.2913137308891547 648.6085104952 0.49318494311730265 0.3520101012600745 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_14" type="capsule" fromto="0.49318494311730265 0.3520101012600745 648.6085104952 0.5538813134882296 0.4428486389300841 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_purple_posts_entry_rim_15" type="capsule" fromto="0.5538813134882296 0.4428486389300841 648.6085104952 0.5751950443850693 0.549999999992306 648.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <site name="iso_orange_distal" pos="1.163098597902261 -0.6000000000076968 653.6085104952" user="3" size=".05" group="5" />
+    <geom name="iso_orange_distal_rim_0" type="capsule" fromto="1.443098597902261 -0.6000000000076966 653.6085104952 1.4217848670054212 -0.4928486389454747 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_1" type="capsule" fromto="1.4217848670054212 -0.4928486389454747 653.6085104952 1.361088496634494 -0.4020101012754651 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_2" type="capsule" fromto="1.361088496634494 -0.4020101012754651 653.6085104952 1.270249958964486 -0.3413137309045453 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_3" type="capsule" fromto="1.270249958964486 -0.3413137309045453 653.6085104952 1.1630985979022608 -0.3200000000076957 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_4" type="capsule" fromto="1.1630985979022608 -0.3200000000076957 653.6085104952 1.0559472368400356 -0.34131373090454553 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_5" type="capsule" fromto="1.0559472368400356 -0.34131373090454553 653.6085104952 0.9651086991700275 -0.4020101012754653 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_6" type="capsule" fromto="0.9651086991700275 -0.4020101012754653 653.6085104952 0.9044123287991005 -0.49284863894547515 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_7" type="capsule" fromto="0.9044123287991005 -0.49284863894547515 653.6085104952 0.883098597902261 -0.6000000000076968 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_8" type="capsule" fromto="0.883098597902261 -0.6000000000076968 653.6085104952 0.9044123287991006 -0.7071513610699187 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_9" type="capsule" fromto="0.9044123287991006 -0.7071513610699187 653.6085104952 0.9651086991700277 -0.7979898987399283 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_10" type="capsule" fromto="0.9651086991700277 -0.7979898987399283 653.6085104952 1.055947236840036 -0.8586862691108481 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_11" type="capsule" fromto="1.055947236840036 -0.8586862691108481 653.6085104952 1.1630985979022612 -0.8800000000076977 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_12" type="capsule" fromto="1.1630985979022612 -0.8800000000076977 653.6085104952 1.2702499589644864 -0.8586862691108479 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_13" type="capsule" fromto="1.2702499589644864 -0.8586862691108479 653.6085104952 1.3610884966344943 -0.7979898987399281 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_14" type="capsule" fromto="1.3610884966344943 -0.7979898987399281 653.6085104952 1.4217848670054212 -0.7071513610699185 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <geom name="iso_orange_distal_rim_15" type="capsule" fromto="1.4217848670054212 -0.7071513610699185 653.6085104952 1.443098597902261 -0.6000000000076966 653.6085104952" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    <site name="orange_L4_contact_hint" user="4" pos="1.199999999996756 0.30999999999213673 671.2806532817091" group="5" size=".02" />
+    <site name="four_hint_blue_L2" group="5" size=".02" pos="-0.5524509741823797 -0.5000000000077601 654.8488503759723" user="2" />
+  </mount>
+  <mount body="body_16740">
+    <geom type="cylinder" size="1.1000000000000014 3.5" quat="6.731346615084686e-16 1 -4.9960036108132025e-16 -9.2863152182626719e-17" name="four_wrap_L5" pos="25.000000000000099 0.12499999999999019 -8.3405504724965201e-15" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <site name="four_hint_purple_L5" pos="26.099992730480707 0.1289991110800156 -1.499999999999894" user="2" group="5" size=".02" />
+    <body name="added_purple_return_eye" pos="23.327857213490105 1.2399939891933704 0.5500000000001051" quat="0.5295916689783626 0.46854312944350535 -0.4685431294435045 -0.5295916689783614">
+      <inertial pos="0 0 0" mass="4.145233848457532e-05" diaginertia="1.6897009474775017e-06 1.6897009474775017e-06 3.3275864718492842e-06" />
+      <site name="iso_purple_return" pos="0 0 0" user="3" size=".05" group="5" />
+      <geom name="iso_purple_return_rim_0" type="capsule" fromto="0.28 0.0 0.0 0.25868626910316034 0.10715136106222514 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_1" type="capsule" fromto="0.25868626910316034 0.10715136106222514 0.0 0.19798989873223333 0.1979898987322333 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_2" type="capsule" fromto="0.19798989873223333 0.1979898987322333 0.0 0.10715136106222517 0.25868626910316034 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_3" type="capsule" fromto="0.10715136106222517 0.25868626910316034 0.0 1.7145055188062947e-17 0.28 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_4" type="capsule" fromto="1.7145055188062947e-17 0.28 0.0 -0.10715136106222513 0.25868626910316034 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_5" type="capsule" fromto="-0.10715136106222513 0.25868626910316034 0.0 -0.1979898987322333 0.19798989873223333 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_6" type="capsule" fromto="-0.1979898987322333 0.19798989873223333 0.0 -0.25868626910316034 0.10715136106222518 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_7" type="capsule" fromto="-0.25868626910316034 0.10715136106222518 0.0 -0.28 3.4290110376125894e-17 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_8" type="capsule" fromto="-0.28 3.4290110376125894e-17 0.0 -0.25868626910316034 -0.10715136106222511 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_9" type="capsule" fromto="-0.25868626910316034 -0.10715136106222511 0.0 -0.19798989873223338 -0.1979898987322333 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_10" type="capsule" fromto="-0.19798989873223338 -0.1979898987322333 0.0 -0.10715136106222531 -0.2586862691031602 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_11" type="capsule" fromto="-0.10715136106222531 -0.2586862691031602 0.0 -5.143516556418884e-17 -0.28 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_12" type="capsule" fromto="-5.143516556418884e-17 -0.28 0.0 0.10715136106222521 -0.2586862691031603 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_13" type="capsule" fromto="0.10715136106222521 -0.2586862691031603 0.0 0.19798989873223327 -0.19798989873223338 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_14" type="capsule" fromto="0.19798989873223327 -0.19798989873223338 0.0 0.2586862691031602 -0.10715136106222532 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+      <geom name="iso_purple_return_rim_15" type="capsule" fromto="0.2586862691031602 -0.10715136106222532 0.0 0.28 -6.858022075225179e-17 0.0" size=".05" mass="0" contype="0" conaffinity="0" condim="3" friction=".2 0 0" solref=".00015 1" solimp=".95 .99 .001" rgba=".8 .8 .25 1" group="0" />
+    </body>
+    <geom name="four_wrap_Solid46_edge" type="cylinder" size=".2 .35" pos="10.999999889244805 -3.6660605559646653 -0.500000000000003" quat="0.04788742713972757 -0.7054833763611562 0.705483376361157 0.04788742713972766" contype="0" conaffinity="0" mass="0" group="5" rgba="0 0 0 0" />
+    <site name="four_hint_blue_Solid46_edge" pos="10.999999889244807 -3.8642259914222152 -0.5270270270270346" user="4" group="5" size=".02" />
+    <site name="blue_finite_anchor" pos="12.200000000000102 -3.8642259914222166 -0.5270270270270351" user="1" group="5" size=".02" />
+    <site name="green_finite_anchor" pos="-12.71999999999991 1.699999999999985 -2.4373836282620702e-14" user="1" group="5" size=".02" />
+  </mount>
+  <mount body="body_16626">
+    <site name="route_16615" size="0.10000000000000001" group="3" rgba="1 0 0 0" pos="2.1656126528281319e-14 0 0" quat="0.70710678118654724 -2.0585285033077383e-16 0.70710678118654791 2.2592257580726494e-16" user="1" />
+    <site name="route_16616" size="0.10000000000000001" group="3" rgba="1 0 0 0" pos="2.1116407245608781e-14 -7.1557343384043293e-15 -5.0000000000000044" quat="0.70710678118654724 -2.0585285033077383e-16 0.70710678118654791 2.2592257580726494e-16" user="1" />
+  </mount>
+  <tendon>
+    <spatial name="four_seed_blue" stiffness="0" damping="0" limited="false" width="0.000001" rgba=".06 .28 .95 1">
+      <site site="four_feed_blue" />
+      <site site="four_hint_blue_R2" />
+      <site site="four_hint_blue_L2" />
+      <site site="four_hint_blue_L3" />
+      <site site="four_hint_blue_L4" />
+      <site site="four_hint_blue_Solid46_edge" />
+      <site site="blue_finite_anchor" />
+    </spatial>
+    <spatial name="four_seed_green" stiffness="0" damping="0" limited="false" width="0.000001" rgba="0 .58 .29 1">
+      <site site="four_feed_green" />
+      <site site="four_hint_green_R3" />
+      <site site="four_hint_green_L1" />
+      <site site="four_hint_green_L2" />
+      <site site="green_finite_anchor" />
+    </spatial>
+    <spatial name="four_seed_orange" stiffness="0" damping="0" limited="false" width="0.000001" rgba="1 .40 .035 1">
+      <site site="four_feed_orange" />
+      <site site="four_hint_orange_R5" />
+      <site site="iso_orange_distal" />
+      <site site="orange_L4_contact_hint" />
+      <site site="route_16615" />
+    </spatial>
+    <spatial name="four_seed_purple" stiffness="0" damping="0" limited="false" width="0.000001" rgba=".65 .24 .86 1">
+      <site site="four_feed_purple" />
+      <site site="iso_purple_R3_entry" />
+      <site site="four_hint_purple_R3" />
+      <site site="iso_purple_posts_entry" />
+      <site site="four_hint_purple_L3" />
+      <site site="four_hint_purple_L4" />
+      <site site="four_hint_purple_L5" />
+      <site site="iso_purple_return" />
+      <site site="route_16616" />
+    </spatial>
+  </tendon>
+  <extension>
+    <plugin plugin="mujoco.cable.unilateral">
+      <instance name="blue">
+        <config key="stiffness" value="19188769.517220244" />
+        <config key="damping" value="0" />
+        <config key="home_length" value="416.9105315909234" />
+        <config key="pretension_offset" value="5.211381562730821e-06" />
+        <config key="slack" value="0.0" />
+        <config key="integration_mode" value="explicit" />
+        <config key="ctrl_mode" value="joint_spool_angle" />
+        <config key="spool_radius" value="4.759999999999998" />
+        <config key="spool_joint" value="j16748" />
+        <config key="spool_reserve_length" value="10" />
+        <config key="spool_reserve_direction" value="negative" />
+        <config key="spool_reaction_torque" value="true" />
+        <config key="capstan_mu" value="0.2" />
+        <config key="capstan_direction" value="velocity" />
+        <config key="capstan_velocity_scale" value="10" />
+        <config key="route_mode" value="surface" />
+        <config key="route_tendon" value="four_seed_blue" />
+        <config key="wrap_geoms" value="four_wrap_R2 four_wrap_L2 four_wrap_L3 four_wrap_L4 four_wrap_Solid46_edge" />
+        <config key="mesh_route_mode" value="guided_surface" />
+        <config key="site_role_user_index" value="0" />
+        <config key="visual_width" value="2" />
+        <config key="visual_smoothing_timeconstant" value="0" />
+      </instance>
+      <instance name="green">
+        <config key="stiffness" value="20295298.1503619" />
+        <config key="damping" value="0" />
+        <config key="home_length" value="394.1799741363911" />
+        <config key="pretension_offset" value="4.927249563024816e-06" />
+        <config key="slack" value="0.0" />
+        <config key="integration_mode" value="explicit" />
+        <config key="ctrl_mode" value="joint_spool_angle" />
+        <config key="spool_radius" value="4.759999999999999" />
+        <config key="spool_joint" value="j16741" />
+        <config key="spool_reserve_length" value="29.90796206217483" />
+        <config key="spool_reserve_direction" value="negative" />
+        <config key="spool_reaction_torque" value="true" />
+        <config key="capstan_mu" value="0.2" />
+        <config key="capstan_direction" value="velocity" />
+        <config key="capstan_velocity_scale" value="10" />
+        <config key="route_mode" value="surface" />
+        <config key="route_tendon" value="four_seed_green" />
+        <config key="wrap_geoms" value="four_wrap_R3 four_wrap_L1 four_wrap_L2" />
+        <config key="mesh_route_mode" value="guided_surface" />
+        <config key="site_role_user_index" value="0" />
+        <config key="visual_width" value="2" />
+        <config key="visual_smoothing_timeconstant" value="0" />
+      </instance>
+      <instance name="orange">
+        <config key="stiffness" value="19046719.780883428" />
+        <config key="damping" value="0" />
+        <config key="home_length" value="420.0198297677136" />
+        <config key="pretension_offset" value="0.0" />
+        <config key="slack" value="0.2" />
+        <config key="integration_mode" value="explicit" />
+        <config key="ctrl_mode" value="joint_spool_angle" />
+        <config key="spool_radius" value="10.009999999999998" />
+        <config key="spool_joint" value="j16742" />
+        <config key="spool_reserve_length" value="10" />
+        <config key="spool_reserve_direction" value="positive" />
+        <config key="spool_reaction_torque" value="true" />
+        <config key="capstan_mu" value="0.2" />
+        <config key="capstan_direction" value="velocity" />
+        <config key="capstan_velocity_scale" value="10" />
+        <config key="route_mode" value="surface" />
+        <config key="route_tendon" value="four_seed_orange" />
+        <config key="wrap_geoms" value="four_wrap_R5 four_wrap_L4" />
+        <config key="mesh_route_mode" value="guided_surface" />
+        <config key="site_role_user_index" value="0" />
+        <config key="visual_width" value="2" />
+        <config key="visual_smoothing_timeconstant" value="0" />
+        <config key="guide_friction_mu" value="0.2" />
+      </instance>
+      <instance name="purple">
+        <config key="stiffness" value="17470741.2598428" />
+        <config key="damping" value="0" />
+        <config key="home_length" value="457.90844710111526" />
+        <config key="pretension_offset" value="0.0" />
+        <config key="slack" value="0.0" />
+        <config key="integration_mode" value="explicit" />
+        <config key="ctrl_mode" value="joint_spool_angle" />
+        <config key="spool_radius" value="10.009999999999998" />
+        <config key="spool_joint" value="j16742" />
+        <config key="spool_reserve_length" value="10" />
+        <config key="spool_reserve_direction" value="negative" />
+        <config key="spool_reaction_torque" value="true" />
+        <config key="capstan_mu" value="0.2" />
+        <config key="capstan_direction" value="velocity" />
+        <config key="capstan_velocity_scale" value="10" />
+        <config key="route_mode" value="surface" />
+        <config key="route_tendon" value="four_seed_purple" />
+        <config key="wrap_geoms" value="four_wrap_R3 four_wrap_L3 four_wrap_L4 four_wrap_L5" />
+        <config key="mesh_route_mode" value="guided_surface" />
+        <config key="site_role_user_index" value="0" />
+        <config key="visual_width" value="2" />
+        <config key="visual_smoothing_timeconstant" value="0" />
+        <config key="guide_friction_mu" value="0.2" />
+      </instance>
+    </plugin>
+  </extension>
+  <sensor>
+    <plugin name="blue_state" instance="blue" />
+    <plugin name="green_state" instance="green" />
+    <plugin name="orange_state" instance="orange" />
+    <plugin name="purple_state" instance="purple" />
+  </sensor>
+  <motor name="blue" joint="j16748" armature="10" damping="0" radius_mm="4.76" speed_mm_s="3" accel_mm_s2="6" />
+  <motor name="green" joint="j16741" armature="10" damping="0" radius_mm="4.76" speed_mm_s="3" accel_mm_s2="6" />
+  <motor name="axial" joint="j16742" armature="100" damping="15000" radius_mm="10.01" speed_mm_s="1" accel_mm_s2="2" />
+  <reference_frame body="body_11549" pos="0.0048049556127249815 -380.49759752693694 957.75851049519974" quat="0 -0.70710678118654768 0.70710678118654724 -1.0842021724855044e-19" />
+  <reference_frame body="body_16729" pos="-149.50000000000017 -2.966999713136572e-12 -185.85000000000031" quat="0.70710678118654746 -2.1239947054606459e-16 -5.1870658607498275e-16 -0.70710678118654757" />
+  <reference_frame body="body_16740" pos="-3.2421270258330831e-12 -7.8650727665184512e-12 671.28065328170987" quat="-0.49999999999999972 0.49999999999999972 0.50000000000000067 0.49999999999999972" />
+  <reference_frame body="body_16626" pos="5.5400000000000453 1.2500000000000124 0" quat="-0.70710678118654702 -4.8843604462396421e-17 0.70710678118654813 3.0442719874145379e-16" />
+</routing>
